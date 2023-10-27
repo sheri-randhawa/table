@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("pucher/pu.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #4f87e2, #065bb0, #ffffff);
+    height: 65px;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+    margin: 20px; 
+}
+.nav-links a{
+    text-decoration: none   ;
+    color: rgb(57, 26, 26);
+}
+.logo a{
+    color: rgb(5, 20, 90);
+    text-decoration: none;
+
+}
+.fac{
+    color: #0866ff;
+}
+.twit{
+    color: #0eb6ed;
+}
+.inta{
+    color: #fc01d8;
+}
